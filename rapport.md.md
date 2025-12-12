@@ -37,7 +37,7 @@ La Plateforme de Gestion des Tickets du Mondial 2030 est un système de billette
 
 
 
-<img src="Stadium Ticketing-2025-12-12-153111.png" style="height:200px;margin-right:432px"/>
+<img src="Stadium Ticketing-2025-12-12-153111.png" />
 
 
 ---
