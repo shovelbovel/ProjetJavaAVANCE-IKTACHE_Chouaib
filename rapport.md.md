@@ -30,27 +30,10 @@ La Plateforme de Gestion des Tickets du Mondial 2030 est un système de billette
 
 **Tableau de Bord Administrateur:** Monitoring des ventes, gestion des matchs et stades, statistiques d'affluence, rapports détaillés.
 
-## 4. Stack Technologique
-
-- **Backend:** Java (Servlets, JSP, API REST)
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Base de Données:** MySQL (via XAMPP)
-- **Serveur d'Application:** Apache Tomcat
-- **Blockchain:** Ethereum ou Hyperledger Fabric
-- **Sécurité:** SSL/TLS, chiffrage AES-256
-
-## 5. Sécurité et Conformité
-
-- Authentification multi-facteurs (email + SMS)
-- Chiffrage des mots de passe (bcrypt/PBKDF2)
-- Protection contre injections SQL et CSRF
-- Blockchain pour immuabilité des enregistrements
-- Codes QR uniques et cryptés
-- Conformité RGPD et PCI-DSS
 
 ---
 
-## 6. Diagramme de Classes UML
+## 4. Diagramme de Classes UML
 
 *Insérez votre diagramme de classes ici*
 
@@ -59,42 +42,3 @@ La Plateforme de Gestion des Tickets du Mondial 2030 est un système de billette
 ```
 
 ---
-
-## 7. Modèle de Données
-
-**Tables Principales:**
-- `Utilisateurs` - Gestion des clients et administrateurs
-- `Matchs` - Informations des matchs et capacité
-- `Billets` - Détails des billets avec hashes blockchain
-- `Transactions` - Historique des transferts et ventes
-- `Sièges` - État des places et densité prévue
-- `Accès` - Enregistrement des entrées au stade
-- `Commandes` - Récapitulatif des achats avec blockchain
-
-## 8. Architecture du Projet
-
-```
-Plateforme-Tickets-Mondial/
-├── src/
-│   ├── controllers/      # Servlets Java
-│   ├── models/           # Classes métier
-│   ├── services/         # Logique applicative
-│   ├── blockchain/       # Intégration blockchain
-│   ├── security/         # Chiffrage et sécurité
-│   └── database/         # Connexion BD
-├── WebContent/
-│   ├── jsp/              # Pages JSP
-│   ├── css/              # Feuilles de style
-│   ├── js/               # Scripts JavaScript
-│   └── images/           # Ressources
-└── database/             # Scripts SQL
-```
-
-## 9. Évolutivité Future
-
-- Application mobile (iOS/Android)
-- Notifications push
-- Programme de fidélité NFT
-- Intelligence artificielle pour recommandations
-- Support multilingue et multi-devises
-- Intégration API partenaires
