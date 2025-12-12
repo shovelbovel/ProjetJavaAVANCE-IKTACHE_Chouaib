@@ -35,10 +35,9 @@ La Plateforme de Gestion des Tickets du Mondial 2030 est un système de billette
 
 ## 4. Diagramme de Classes UML
 
-*Insérez votre diagramme de classes ici*
 
-```
-[Votre diagramme UML/Diagramme de classes]
-```
+
+<img src="Stadium Ticketing-2025-12-12-153111.png" style="height:200px;margin-right:432px"/>
+
 
 ---
