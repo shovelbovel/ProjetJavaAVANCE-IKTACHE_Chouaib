@@ -1,0 +1,254 @@
+/* World Cup 2026 - JavaFX Styles */
+
+/* Root container */
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Login/Register containers */
+.login-container, .register-container {
+    -fx-background-color: linear-gradient(to bottom right, #1a1a2e, #16213e, #0f3460);
+}
+
+.form-container {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 20, 0, 0, 5);
+}
+
+/* Text fields */
+.text-field-styled {
+    -fx-background-color: #f8f9fa;
+    -fx-background-radius: 8;
+    -fx-border-color: #e9ecef;
+    -fx-border-radius: 8;
+    -fx-padding: 10 15;
+    -fx-font-size: 14px;
+}
+
+.text-field-styled:focused {
+    -fx-border-color: #3498db;
+    -fx-background-color: white;
+}
+
+/* Buttons - Primary */
+.btn-primary {
+    -fx-background-color: linear-gradient(to right, #3498db, #2980b9);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-padding: 10 20;
+}
+
+.btn-primary:hover {
+    -fx-background-color: linear-gradient(to right, #2980b9, #1f5f8b);
+}
+
+/* Buttons - Success */
+.btn-success {
+    -fx-background-color: linear-gradient(to right, #27ae60, #1e8449);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-padding: 10 20;
+}
+
+.btn-success:hover {
+    -fx-background-color: linear-gradient(to right, #1e8449, #196f3d);
+}
+
+.btn-success-small {
+    -fx-background-color: #27ae60;
+    -fx-text-fill: white;
+    -fx-font-size: 11px;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-padding: 5 10;
+}
+
+.btn-success-small:hover {
+    -fx-background-color: #1e8449;
+}
+
+/* Buttons - Danger */
+.btn-danger {
+    -fx-background-color: linear-gradient(to right, #e74c3c, #c0392b);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-padding: 10 20;
+}
+
+.btn-danger:hover {
+    -fx-background-color: linear-gradient(to right, #c0392b, #922b21);
+}
+
+.btn-danger-small {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-size: 11px;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-padding: 5 10;
+}
+
+.btn-danger-small:hover {
+    -fx-background-color: #c0392b;
+}
+
+/* Buttons - Warning */
+.btn-warning {
+    -fx-background-color: linear-gradient(to right, #f39c12, #d68910);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-padding: 10 20;
+}
+
+.btn-warning:hover {
+    -fx-background-color: linear-gradient(to right, #d68910, #b9770e);
+}
+
+.btn-warning-small {
+    -fx-background-color: #f39c12;
+    -fx-text-fill: white;
+    -fx-font-size: 11px;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-padding: 5 10;
+}
+
+.btn-warning-small:hover {
+    -fx-background-color: #d68910;
+}
+
+/* Sidebar buttons */
+.sidebar-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-padding: 10 15;
+}
+
+.sidebar-btn:hover {
+    -fx-background-color: rgba(255,255,255,0.1);
+}
+
+/* Content area */
+.content-area {
+    -fx-background-color: #f8f9fa;
+}
+
+/* Tables */
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+}
+
+.table-view .column-header {
+    -fx-background-color: #34495e;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #34495e;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: #ecf0f1;
+    -fx-border-width: 0 0 1 0;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f8f9fa;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #ebf5fb;
+}
+
+/* Combo boxes */
+.combo-box {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5;
+}
+
+.combo-box:hover {
+    -fx-border-color: #3498db;
+}
+
+/* Date picker */
+.date-picker {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+}
+
+/* Hyperlinks */
+.hyperlink {
+    -fx-text-fill: #3498db;
+    -fx-underline: false;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #2980b9;
+    -fx-underline: true;
+}
+
+/* Dialogs */
+.dialog-pane {
+    -fx-background-color: white;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: linear-gradient(to right, #3498db, #2980b9);
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Scroll panes */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: #f8f9fa;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #2c3e50;
+}
+
+/* Alert dialogs */
+.alert {
+    -fx-background-color: white;
+}
+
+.alert .header-panel {
+    -fx-background-color: #3498db;
+}
