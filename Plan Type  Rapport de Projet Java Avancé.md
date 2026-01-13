@@ -1,3 +1,5 @@
+
+<img src="Images/Emsi-logo" alt="Logo Emsi" width="300"/>
 # Plan Type : Rapport de Projet Java Avancé
 # 4IIR EMSI 2025-2026
 
@@ -110,4 +112,5 @@ Liste des sources : Documentation Oracle, StackOverflow, Cours, Tutoriels YouTub
 ### 💡 Conseils pour un bon rapport
 1.  **Formatage du Code :** N'écrivez jamais du code comme du texte normal. Utilisez une police à chasse fixe (ex: *Courier New* ou *Consolas*) et la coloration syntaxique si possible.
 2.  **Cohérence :** Le diagramme de classe UML doit correspondre exactement aux classes Java présentes dans le code.
+
 3.  **Justification :** Ne dites pas "J'ai utilisé Maven". Dites "J'ai utilisé Maven **pour automatiser la gestion des dépendances et faciliter l'intégration du driver MySQL**".
