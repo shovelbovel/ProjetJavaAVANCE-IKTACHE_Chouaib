@@ -592,4 +592,4 @@ Ce projet a permis de développer une application desktop complète et fonctionn
 
 ---
 
-*Rapport généré pour le projet de gestion des billets - Coupe du Monde FIFA 2026*
+
